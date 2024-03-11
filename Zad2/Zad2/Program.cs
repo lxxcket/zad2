@@ -16,6 +16,7 @@ class Program
         int sum = 0;
         for (int i = 0; i < arr.Length; i++)
             sum += arr[i];
+        Console.WriteLine("edited in feature-new branch");
         return sum / arr.Length;
     }
 
